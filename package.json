@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/gitfer/our-monthly-expenses/issues"
   },
-  "homepage": "https://github.com/gitfer/our-monthly-expenses#readme"
+  "homepage": "https://github.com/gitfer/our-monthly-expenses#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
