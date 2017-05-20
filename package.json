@@ -1,18 +1,25 @@
 {
   "name": "our-monthly-expenses",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
-  },
-  "devDependencies": {
-    "react-scripts": "1.0.1"
-  },
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "start": "node server",
+    "heroku-postbuild": "cd our-monthly-expenses-client/ && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitfer/our-monthly-expenses.git"
+  },
+  "keywords": [
+    "heroku",
+    "git",
+    "react"
+  ],
+  "author": "Federico Rota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitfer/our-monthly-expenses/issues"
+  },
+  "homepage": "https://github.com/gitfer/our-monthly-expenses#readme"
 }
